@@ -24,7 +24,7 @@ app.config(['$locationProvider', '$routeProvider',
 app.service('passdata', function ($http) {
   this.getData = function () {
     return {
-      name: "pankaj",
+      name: "pankaj saw",
       age: 15
     }
   }
