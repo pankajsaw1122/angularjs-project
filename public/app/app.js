@@ -25,7 +25,7 @@ app.service('passdata', function ($http) {
   this.getData = function () {
     return {
       name: "abc",
-      age: 12
+      age: 15
     }
   }
   // this.callLogin = async function(data) {
