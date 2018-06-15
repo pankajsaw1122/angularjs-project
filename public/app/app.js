@@ -21,20 +21,3 @@ app.config(['$locationProvider', '$routeProvider',
   }
 ]);
 
-app.service('passdata', function ($http) {
-  this.getData = function () {
-    return {
-      name: "pankaj kumar saw",
-      age: 15
-    }
-  }
-  // this.callLogin = async function(data) {
-  //   var result = '';
-  //   console.log(data);
-  //   console.log('callLogin api worked');
-  //  await $http.post("http://localhost:3000/userLogin", data).then(function (response) {
-  //    result = response.data;
-  //   })
-  //   return result;
-  // }
-});

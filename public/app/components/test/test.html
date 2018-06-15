@@ -17,7 +17,7 @@
                         <input type="password" class="form-control" ng-model="pwd" name="pwd" required>
                         <span class="warn-text" ng-show="loginForm.pwd.$touched && loginForm.pwd.$invalid">Password is required.</span>
                     </div>
-                        <button type="submit" ng-click="callLogin()" ng-disabled="loginForm.userName.$invalid || loginForm.pwd.$invalid"
+                        <button type="submit" ng-click="callApi()" ng-disabled="loginForm.userName.$invalid || loginForm.pwd.$invalid"
                             class="btn btn-primary">Submit</button>
                     </a>
                 </form>
