@@ -1,0 +1,18 @@
+.header {
+    background-color: black;
+    padding: 8px;
+    border-radius: 2px;
+    color: white;
+    text-align: center; }
+  
+  .card-custom {
+    max-width: 420px;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 68px; }
+  
+  .warn-text {
+    color: red; }
+  
+  .success-text {
+    color: #50d150; }

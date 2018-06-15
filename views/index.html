@@ -1,0 +1,28 @@
+<!-- <h1><%= title %></h1>
+<p>Welcome to <%= title %></p>
+<p style="font-weight: 500"> This is html file </p> -->
+<html ng-app="indexApp">
+  <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/app/components/about/about.css">
+      <link rel="stylesheet" href="/app/components/list/list.css">
+      <link rel="stylesheet" href="/app/components/dashboard/dashboard.css">
+      <link rel="stylesheet" href="/app/components/test/test.css">
+      <!-- <link rel="stylesheet" href="/stylesheets/index.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular-route.js"></script>
+    <script src="/app/app.js"></script>
+    <script src="/app/components/about/about.js"></script>
+    <script src="/app/components/dashboard/dashboard.js"></script>
+    <script src="/app/components/list/list.js"></script>
+    <script src="/app/components/navbar/navbar.js"></script>
+    <script src="/app/components/test/test.js"></script>
+  </head>
+  <body>
+    <!-- Load view tempalate-->
+    <div ng-view></div>
+  </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</html>

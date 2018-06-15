@@ -1,0 +1,22 @@
+<div ng-include src="'/app/components/navbar/navbar.html'"></div>
+<div class="container"> 
+<div class="list-head">
+  <h1> {{text}}</h1>
+</div> 
+<p> User details table</p>
+<p><label>Search: </label><input type="text" ng-model="searchText"></p>
+<table  class="table table-dark table-hover">
+  <tr>
+    <th>User Id</th>
+     <th>User Name</th>
+     <th>User Email-id</th>
+     <th>Dob</th>
+    </tr>
+  <tr ng-repeat="ud in userDetails | filter: searchText">
+    <td>{{ ud.id }}</td>
+    <td>{{ ud.name | uppercase }}</td>
+    <td>{{ ud.email }}</td>
+    <td>{{ ud.dob | date: "yyyy/MM/dd" }}</td>
+  </tr>
+</table>
+</div>
