@@ -28,11 +28,13 @@ app.service('passdata', function ($http) {
       age: 12
     }
   }
-  // this.callLogin = function(data) {
+  // this.callLogin = async function(data) {
+  //   var result = '';
   //   console.log(data);
   //   console.log('callLogin api worked');
   //  await $http.post("http://localhost:3000/userLogin", data).then(function (response) {
-  //     console.log(response.data);
+  //    result = response.data;
   //   })
+  //   return result;
   // }
 });
